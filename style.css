@@ -1,14 +1,18 @@
-  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap'); /* font-family: 'Nunito Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap'); /* font-family: 'Nunito Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap'); /* font-family: 'Comfortaa', cursive; */
+
+
 
 :root{
     --maxima-lag: 1024px;
     --minima-lag: 250px;
     --fontePadrao: 'Nunito Sans', sans-serif;
-    --fonteTitulos: arial;
+    --fonteTitulos: 'Comfortaa', cursive;
     --fonteMenus: arial;
     --fonteDestaques: arial;
     --corfundo: #FFF;
     --corFonte: #424242;
+    --corTitulos: rgb(180, 66, 0);
 }
 
 
@@ -115,7 +119,7 @@ hr{
 
 .portfolio{
     width: 33%;
-    margin-top: 20px;
+    margin: 20px 0px;
 }
 
 @media (max-width: 480px){
@@ -126,4 +130,14 @@ hr{
 
 .port{
     width: 98%;
+}
+
+h2{
+    font-family: var(--fonteTitulos);
+    color: var(--corTitulos);
+}
+
+span{
+    font-weight: bold;
+    color: var(--corTitulos);
 }
