@@ -1,17 +1,22 @@
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap'); /* font-family: 'Nunito Sans', sans-serif; */
+
 :root{
-    --maxima-lag: 900px;
+    --maxima-lag: 1024px;
     --minima-lag: 250px;
-    --fontePadrao: arial;
+    --fontePadrao: 'Nunito Sans', sans-serif;
     --fonteTitulos: arial;
     --fonteMenus: arial;
     --fonteDestaques: arial;
     --corfundo: #FFF;
+    --corFonte: #424242;
 }
 
 
 *{
     padding: 0;
     margin: 0;
+    font-family: var(--fontePadrao);
+    color: var(--corFonte);
 }
 
 header, main, footer{
@@ -62,4 +67,26 @@ nav{
 .menu{
     width: 50px;
     height: 50px;
+}
+
+/*----------------------------- MAIN -----------------------------*/
+#apresentacao{
+    column-count: 1;
+    text-align: justify;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+@media (min-width: 768px){
+    #apresentacao{
+        column-count: 2;
+        column-gap: 20px;
+    }
+}
+
+@media (min-width: 950px){
+    #apresentacao{
+        column-count: 3;
+        column-gap: 20px;
+    }
 }
