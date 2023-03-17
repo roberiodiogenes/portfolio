@@ -114,11 +114,11 @@ hr{
 }
 
 .portfolio{
-    width: 30%;
-    margin-top: 10px;
+    width: 33%;
+    margin-top: 20px;
 }
 
-@media (max-width: 500px){
+@media (max-width: 480px){
     .portfolio{
         width: 100%;
     }
