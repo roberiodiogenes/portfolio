@@ -214,3 +214,38 @@ footer{
     color: var(--corfundo);
     height: 60px;
 }
+
+.youtube{
+    background-color: var(--corfundo);
+    /*margin:  0px -20px;*/
+    position: relative;
+    padding-bottom: 57%; /*Ajustar para reirar espaços pretos nas laterais*/
+}
+
+.youtube>iframe{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 92%;
+    height: 92%;
+}
+
+.linksimples{
+    text-decoration: none;
+    font-family: var(--fontedestaques);
+    color: var(--corcomplementar);
+}
+
+.linksimples:hover{
+    text-decoration: underline;
+    color: var(--cortitulos);
+}
+
+.listasdesordenadas{
+    list-style: none;
+    font-family: var(--fontedestaques);
+}
+
+.tituloowsada{
+    margin-bottom: 35px;
+}
