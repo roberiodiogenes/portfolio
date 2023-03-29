@@ -249,3 +249,32 @@ footer{
 .tituloowsada{
     margin-bottom: 35px;
 }
+
+.botao{
+    width: 50%;
+    height: 30px;
+    background-color: var(--corcomplementar);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #000000af;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+    transition: .3s;
+}
+
+.botao:hover{
+    background-color: var(--cortitulos);
+    transition: .3s;
+}
+
+.btn-botao{
+    text-decoration: none;
+    font-family: var(--fontemenus);
+    color: var(--corfundo);
+    font-weight: bold;
+    transition: 3s;
+}
+
+
+
