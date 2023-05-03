@@ -275,3 +275,30 @@ footer{
     font-weight: bold;
     transition: 3s;
 }
+
+/*APAHAR*/
+main ul li{
+    list-style: none; /*Remove os marcadores da lista*/
+}
+
+main a{
+    text-decoration: none; /*Remove o sublinhado*/
+    color: aqua; /*Muda a cor dos links dentro da tag main*/
+}
+
+main a:hover{ /* :HOVER é um pseudo comportamento que muda quando o mouse passar por cima*/
+    text-decoration: underline; /*Undeline quando o mouse passar por cima*/
+    color: rgb(255, 247, 0); /*Muda de cor quando o mouser passar por cima*/
+}
+
+
+.menu:hover{
+    color: azure;
+}
+
+#fotoperfil{
+    border: 2px solid white;
+
+    
+    
+}
